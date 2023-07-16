@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Sword Art Online - SZPC </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.png" alt="Logo sao">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="kayaba" data-name="Kayaba" data-description="Akihiko Kayaba, fundador do SAO, desenvolveu o jogo sem a possibilidade de deslogar do mundo virtual, e quem perdesse todo o seu hp no jogo, perderia sua vida também, obrigando a todos a lutarem para zerar o game.">
+            <img
+              src="./src/imagens/Kayabacard2.png"
+              alt="Personagem Kayaba"
+            />
+          </li>
+          <li class="personagem" id="kirito" data-name="Kirito" data-description="Kirito, foi um dos 10.000 jogadores do SAO, e jogava na linha de frente com uma grande parte de seus amigos, sendo um dos melhores jogadores, ficou conhecido como Espadachim Negro, por sempre usar preto.">
+            <img
+              src="./src/imagens/Kiritocard2.png"
+              alt="Personagem Kirito"
+            />
+          </li>
+
+          <li class="personagem" id="asuna" data-name="Asuna" data-description="Asuna, sendo uma habilidosa jogadora do SAO. Por causa de suas habilidades com a rapieiras, sendo apelidada de Brilho Fulminante. Ela também era sub-líder da guilda Cavaleiros do Juramento de Sangue.">
+            <img
+              src="./src/imagens/Asunacard2.png"
+              alt="Personagem Asuna"
+            />
+          </li>
+
+          <li class="personagem" id="yui" data-name="Yui" data-description="Yui é uma Inteligência Artificial, que foi bloqueado pelo sistema cardinal de game, e depois de um tempo ela foi encontrada, no andar 22º torno das florestas, por Kirito e Asuna, onde ela começou considerá-los como seus pais.">
+            <img
+              src="./src/imagens/Yuicard2.png"
+              alt="Personagem Yui"
+            />
+          </li>
+
+          <li class="personagem" id="klein" data-name="Klein" data-description="Klein em Sword Art Online (SAO), ele era o líder da Fuurinkazan, uma das guildas Clearer. Ele foi a primeira pessoa que Kirito interagiu no início do jogo, se tornando amigos logo em seguida.">
+            <img
+              src="./src/imagens/kleincard2.png"
+              alt="Personagem Klein"
+            />
+          </li>
+
+          <li class="personagem" id="lisbeth" data-name="Lisbeth" data-description="Lisbeth ou Liss em SAO, onde ela se tornou ferreira e abriu a sua própria loja em Lindarth, para ajudar os jogadores com equipamentos necessários para zerar o jogo.">
+            <img
+              src="./src/imagens/Lisbethcard2.png"
+              alt="Personagem Lisbeth"
+            />
+          </li>
+
+          <li class="personagem" id="silica" data-name="Silica" data-description="Sílica em SAO, onde ela era conhecida como Domadora de Feras, sua fiel companheira era uma criatura chamada Pina.">
+            <img
+              src="./src/imagens/Silicacard2.png"
+              alt="Personagem Silica"
+            />
+          </li>
+
+          <li class="personagem" id="Leafa" data-name="Leafa" data-description="Leafa, é prima/ irmã adotiva de Kirito, enquanto Kazuto estava preso em SAO, Leafa desenvolveu interesse pelo mundo virtual, assim ela começou a jogar um game chamado ALfheim Online.
+          ">
+            <img
+              src="./src/imagens/Leafacard2.png"
+              alt="Personagem Leafa"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-kayaba2.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Kayaba</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Akihiko Kayaba, fundador do SAO, desenvolveu o jogo sem a possibilidade de deslogar do mundo virtual, e quem perdesse todo o seu hp no jogo, perderia sua vida também, obrigando a todos a lutarem para zerar o game.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
